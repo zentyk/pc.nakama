@@ -1,0 +1,9 @@
+authtoken: [HAHAHA, PUT YOUR TOKEN]
+
+tunnels:
+  playcanvas:
+    proto: http
+    addr: 80
+  nakama:
+    proto: http
+    addr: 7350

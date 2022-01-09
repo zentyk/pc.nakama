@@ -1,0 +1,11 @@
+version: "3"
+
+services: 
+    web:
+        container_name: client
+        image: nginx:1.14.2-alpine
+        restart: always
+        ports:
+            - "80:80"
+        volumes:
+            - ./dist:/usr/share/nginx/html:ro
